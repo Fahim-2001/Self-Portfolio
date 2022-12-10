@@ -1,9 +1,13 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
+import Profile from "../../../assets/Images/Fahim_1.jpg";
+import Intro from "../Intro/Intro";
+import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-      <h1>This Is Home???</h1>
+      <Intro></Intro>
     </div>
   );
 };

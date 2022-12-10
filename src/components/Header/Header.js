@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/Images/Logo.png";
+import logo from "../../assets/Images/Logo.jpg";
 
 const Header = () => {
   return (
-    <header className="p-4 dark:bg-gray-800 dark:text-gray-100  text-gray-700 text-xl font-medium py-4">
+    <header className="p-4 dark:bg-gray-800 dark:text-gray-100   text-xl font-medium py-4">
       <div className="container flex justify-between h-16 mx-auto md:justify-center md:space-x-8">
         <ul className="items-stretch hidden space-x-3 md:flex">
           <li className="flex">
@@ -32,7 +32,7 @@ const Header = () => {
           aria-label="Back to homepage"
           className="flex items-center p-2"
         >
-          <img src={logo} alt="" width={"95px"} className="rounded-xl" />
+          <img src={logo} alt="" width={"140px"} className="rounded-xl" />
         </Link>
         <ul className="items-stretch hidden space-x-3 md:flex">
           <li className="flex">
