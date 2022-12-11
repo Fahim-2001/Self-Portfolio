@@ -42,6 +42,14 @@ const Intro = () => {
           <img src={Profile} alt="" className="photo" />
         </div>
       </div>
+      <div className="flex justify-center mb-10">
+        <a
+          href="https://drive.google.com/file/d/10Zi2RxiHhMh0McOLic1lX8scMEEpjTKc/view?usp=sharing"
+          className="btn"
+        >
+          Download Resume
+        </a>
+      </div>
     </div>
   );
 };
