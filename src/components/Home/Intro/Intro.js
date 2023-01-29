@@ -4,9 +4,10 @@ import Profile from "../../../assets/Images/Fahim_1.jpg";
 const Intro = () => {
   return (
     <div>
-      <div className="block lg:flex justify-between items-center mx-56">
+      <div className="block lg:flex justify-between items-center mx-5  lg:mx-40">
         <div>
           <TypewriterComponent
+            className=""
             onInit={(typewriter) => {
               typewriter
                 .typeString(
@@ -38,13 +39,13 @@ const Intro = () => {
             }}
           />
         </div>
-        <div className="flex justify-center my-5">
+        <div className="hidden lg:flex justify-center my-5">
           <img src={Profile} alt="" className="photo" />
         </div>
       </div>
       <div className="flex justify-center mb-10">
         <a
-          href="https://drive.google.com/file/d/10Zi2RxiHhMh0McOLic1lX8scMEEpjTKc/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Xn2ATWKZB02Ocx_PqFepml1B15oaqm7P/view?usp=sharing"
           className="btn"
         >
           Download Resume
